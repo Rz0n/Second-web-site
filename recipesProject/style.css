@@ -1,0 +1,93 @@
+* {
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:burlywood;
+}
+
+.conteiner {
+    display: block;
+    text-align: center;
+    background:linear-gradient(to right,burlywood,whitesmoke);
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 20px auto;
+    padding: 23px;
+    width: fit-content;
+    height: 600px;
+}
+
+.header {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+.picture {
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+p {
+    display: inline-block;
+    position: absolute;
+    margin-left: 25px;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: fit-content;
+}
+
+#foter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-top: 39px;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.9s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+    transition: ease-in-out 1s;
+}
+
+a {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color:black;
+}
