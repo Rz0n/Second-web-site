@@ -64,4 +64,9 @@ ul > li {
     font-size: 22px;
     margin-top: 10px;
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
 }
